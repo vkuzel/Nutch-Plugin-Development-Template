@@ -1,4 +1,4 @@
-Template for Apache Nutch 1.10 plugin development for Maven and IntelliJ IDEA.
+Apache Nutch 1.10 plugin development template for IntelliJ IDEA.
 
 To make this work please copy your working Nutch installation into the
 nutch-1.10 subdirectory and add plugin name to nutch-plugin-development-template
