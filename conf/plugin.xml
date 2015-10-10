@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="nutch-plugin-development-template"
+        name="A template for Nutch plugin development."
+        version="1.0.0"
+        provider-name="github.com/vkuzel">
+
+    <runtime>
+        <library
+                name="nutchPluginDevelopmentTemplate-1.0-SNAPSHOT-jar-with-dependencies.jar">
+            <export name="*"/>
+        </library>
+    </runtime>
+
+    <!-- The directive below means that this plugin extends Nutch's parse command. -->
+    <extension id="org.apache.nutch.parse"
+               point="org.apache.nutch.parse.HtmlParseFilter">
+        <implementation
+                id="com.github.vkuzel.nutch_plugin_development_template.DummyHtmlParserFilter"
+                class="com.github.vkuzel.nutch_plugin_development_template.DummyHtmlParserFilter"/>
+    </extension>
+</plugin>

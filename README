@@ -1,0 +1,12 @@
+Template for Apache Nutch 1.10 plugin development for Maven and IntelliJ IDEA.
+
+To make this work please copy your working Nutch installation into the
+nutch-1.10 subdirectory and add plugin name to nutch-plugin-development-template
+to plugin.includes configuration directive.
+
+Then just execute the "Parse test data" debug configuration.
+
+Please explore files of the project to understand what's going on. There's not
+so much of them.
+
+Feel free to do whatever you want with this project.
