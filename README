@@ -11,5 +11,8 @@ so much of them.
 
 Feel free to do whatever you want with this project.
 
-Check out following article for more details about Nutch Plugin development:
+This template is part of an short Nutch plugin development article:
+http://vkuzel.blogspot.cz/2015/10/development-of-apache-nutch-110-plugin.html 
+
+Also check out an following article for more details about Nutch Plugin development:
 http://www.atlantbh.com/precise-data-extraction-with-apache-nutch/
