@@ -4,7 +4,7 @@ this directory is going to look like this:
 conf
 lib
 plugins
-test_data.zip <-- Don't remove this file. It contains some data to test plugin on.
+test_data.zip <-- Don't remove this file. It contains some data for plugin testing.
 
 You are not going to need bin directory since IDEA calls Nutch's classes
 directly. Don't forget to add nutch-plugin-development-template to Nutch's
